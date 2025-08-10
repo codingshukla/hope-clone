@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+}
+
+
+.container{
+    background-image: url(images/login-final.avif);
+    background-color: aqua;
+    height: 800px;
+    width: 100%;
+    float: left;
+    background-size: cover;
+}
+
+
+.login-form{
+    height: 460px;
+    width: 386px;
+    float: left;
+
+    background-color: rgb(40, 42, 43);
+      margin-left: 39%;
+    margin-top: 180px;
+    background-image: url(images/login-final.avif);
+    background-size: cover;
+}
+
+form {
+  width: 300px;
+  padding: 20px;
+}
+
+form div {
+     margin-bottom: 15px;
+    margin-top: 39px;
+    margin-left: 51px;
+}
+ .Register{
+    background-color: rgb(17, 17, 16);
+    margin-bottom: 15px;
+    margin-top: 39px;
+    margin-left: 66px;
+    color: aliceblue;
+ }
+
+
+.button{
+        margin-bottom: 12px;
+    margin-top: 61px;
+    margin-left: 66px;
+}
+
+
+form h2 {
+  text-align: center;
+  margin: 0;
+  color: rgb(10, 10, 10);
+}
+
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+.password{
+    color: aliceblue;
+    margin-left: 70px;
+}
+
+form label {
+  font-size: 0.9em;
+  color: aliceblue;
+  margin-left: 90px;
+}
+
+form a {
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+}
+
+form p {
+  text-align: center;
+  margin: 0;
+}
+
+.register-container{
+    background-image: url(images/regitser.avif);
+    height: 400px;
+width: 100%;
+background-size: cover;
+float: left;
+    
+}
+
+.heading{
+    margin-top: 100px;
+    margin-left: 190px;
+}
+.heading h1{
+    color: aliceblue;
+    font-size: 200px;
+}
+
+
+
+/* regiter start there */
+
+.Register2{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 149px;
+    
+    margin-left: 36%;
+    float: left;
+    color: rgb(1, 1, 1);
+    width: 520px;
+   
+    border-radius: 10px;
+    height: 600px;
+}
+ .register2-container{
+  float: left;
+  background-image: url(images/regitser.avif);
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+ }
+
+
+.footer-about {
+      
+      padding: 60px 10%;
+      background-color: #eef6f2;
+      overflow: hidden; /* Ensures float elements are contained */
+    }
+
+    .footer-heading {
+          font-size: 43px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-right: 44px;
+    }
+
+
+
+
+    .footer-left {
+      float: left;
+      width: 20%;
+      min-width: 250px;
+      margin-left: 167px;
+    }
+
+    .footer-left p {
+      font-size: 14px;
+      color: #000;
+      margin: 20px 0 8px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .footer-left span {
+      font-size: 18px;
+      color: #000;
+      font-weight: 500;
+      text-transform: none;
+    }
+
+    .footer-icons {
+      margin-top: 30px;
+    }
+
+    .footer-icons img {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background-color: #0b6933;
+      padding: 6px;
+      margin-right: 10px;
+    }
+
+    .footer-right {
+    float: left;
+      width: 42%;
+      min-width: 250px;
+      font-size: 16px;
+      color: #000;
+          margin-left: 157px;
+    }
+
+  .footer-right p {
+    font-size: 25px;
+    text-align: justify;
+  }
+
+    .footer-right strong {
+      font-weight: 600;
+    }
+
+    @media screen and (max-width: 768px) {
+      .footer-left, .footer-right {
+        float: none;
+        width: 100%;
+      }
+    }
+
+
+    .footer-about2 {
+    width: 80%;
+    padding: 20px 10%;
+    background-color: white;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    overflow: hidden; /* to clear floats */
+  }
+
+  .footer-left2 {
+    float: left;
+    width: 33.33%;
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .footer-left2 a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .footer-center2 {
+    float: left;
+   
+   background-image: url(images/logo-black-1.png);
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  margin-left: 167px;
+
+  }
+
+  .footer-center2 img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer-right2 {
+    float: left;
+    width: 48%;
+    text-align: right;
+    margin-top: 10px;
+  }
+
+  .footer-right2 p {
+    width: 571px;
+    color: black;
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer-left2,
+    .footer-center2,
+    .footer-right2 {
+      float: none;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+  }
+
+    .register-divs {
+        width: 100%;
+        height: 100%;
+        float: left;
+        margin-left: 20%;
+        
+    }
+
+    .left-register {
+        float: left;
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(to bottom, #d946ef, #f9a8d4);
+        position: relative;
+    }
+
+    .left-content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .register-container {
+        float: left;
+        width: 50%;
+        height: 100%;
+        background: white;
+        padding: 50px;
+        text-align: center;
+    }
+
+    .register-container h2 {
+        font-size: 2em;
+        margin-bottom: 30px;
+        color: #333;
+    }
+
+    .register-container input[type="text"],
+    .register-container input[type="email"],
+    .register-container input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        font-size: 1em;
+    }
+
+    .checkbox-container {
+        text-align: left;
+        margin: 20px 0;
+        font-size: 0.9em;
+    }
+
+    .checkbox-container input[type="checkbox"] {
+        margin-right: 5px;
+    }
+
+    .signup-btn {
+        background: #f472b6;
+        color: white;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 20px;
+        font-size: 1em;
+        cursor: pointer;
+        margin: 20px 0;
+    }
+
+    .signup-btn:hover {
+        background: #ec4899;
+    }
+
+    .signin-link {
+        display: block;
+        color: #666;
+        text-decoration: none;
+        font-size: 0.9em;
+    }
+
+    .signin-link:hover {
+        color: #333;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
